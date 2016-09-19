@@ -66,9 +66,8 @@ nav li a:hover{
 
 /* search input box */
 
-input{
+#search_input{
     background-color: transparent;
-    border: 1px solid;
     padding: 10px 15px;
     height: 20px;
     width: 160px;
@@ -80,7 +79,7 @@ input{
     border: 1px solid #87cefa;
 }
 
-input:focus {
+#search_input:focus {
 
   outline: none;
 
@@ -186,51 +185,116 @@ input:focus {
 
 footer{
 
-    background-color: rgba(0,0,0.0.8);
-    padding: 30px 20px;
-    z-index: 99;
+    background-color: rgba(0,0,0,0.9);
+    color: #fff;
+    z-index: -999;
 
 }
 
-.col-1 strong{
+.padd{
+
+   padding: 30px 320px 0px 320px;
+}
+
+.col-1{
 
     float: left;
-    color: red;
+    
     font-size: 20px;
-    margin-left: 40px;
+    position: relative;
+    top: -20px;
+   
 
 
+}
+
+.icons{
+
+    clear: both;
+    
 }
 
 .col-1 a{
 
     text-decoration: none;
-    color: red;
-    font-size: 15px;
-    margin-left: 40px;
+    color: #fff;
+    font-size: 19px;
+    margin-right: 20px;
     margin-top: 20px;
+}
+
+.col-1 a:hover{
+
+    color: rgba(200,200,200,0.9)
 }
 
 .col-2{
 
-    color: red;
+   
     font-size: 20px;
-    margin-top:-20px;
-    margin-right: 40px;
-    display: inline-block;
+    position: relative;
+    top: -20px;
+    float: right;
+    
+
+
+}
+
+#newsletter_input{
+
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    height: 20px;
+    width: 180px;
+    color: #CCC;
+    border-radius: 2px;
+    margin-top: 10px;
+
+}
+
+#submit_input{
+
+    background-color: #1e90ff;
+    padding: 8px 15px;
+    margin-top: 10px;
+
+}
+
+#submit_input:hover{
+
+    background-color: #ccc;
 
 }
 
 .bottom{
 
     clear: both;
-    color: red;
+
+    
 
 }
 
 .bottom span{
 
-    text-align: center;
+   margin-left: 45%;
+   font-size: 12px
 
 }
+
+.bottom a{
+
+    text-decoration: none;
+    color: #fff;
+    ;
+
+}
+
+.bottom a:hover{
+
+    color: #ccc;
+
+}
+
+
 
