@@ -125,6 +125,7 @@ nav li a:hover{
     -moz-transition: all 2s ease-in-out;
     -o-transition: all 2s ease-in-out;
        transition: all 2s ease-in-out;
+     
     
     
     
@@ -185,27 +186,26 @@ nav li a:hover{
 
 footer{
 
-    background-color: rgba(0,0,0,0.9);
+    background-color: #000;
+    opacity: 0.8;
     color: #fff;
-    z-index: -999;
+   
 
 }
 
 .padd{
 
    padding: 30px 320px 0px 320px;
+   
 }
 
 .col-1{
 
     float: left;
-    
     font-size: 20px;
     position: relative;
     top: -20px;
    
-
-
 }
 
 .icons{
@@ -225,7 +225,8 @@ footer{
 
 .col-1 a:hover{
 
-    color: rgba(200,200,200,0.9)
+    color: rgba(200,200,200,0.9);
+
 }
 
 .col-2{
@@ -236,7 +237,6 @@ footer{
     top: -20px;
     float: right;
     
-
 
 }
 
@@ -255,23 +255,27 @@ footer{
 
 #submit_input{
 
-    background-color: #1e90ff;
+    background-color: #00bfff;
     padding: 8px 15px;
     margin-top: 10px;
+    border-radius: 2px;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+
 
 }
 
 #submit_input:hover{
 
-    background-color: #ccc;
+    background-color: #87cefa;
 
 }
 
 .bottom{
 
     clear: both;
-
-    
+   
 
 }
 
@@ -286,7 +290,7 @@ footer{
 
     text-decoration: none;
     color: #fff;
-    ;
+    
 
 }
 
